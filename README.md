@@ -1,0 +1,1 @@
+This example demonstrates a common JavaScript pitfall involving type coercion. The function `foo` attempts to add two values, but due to JavaScript's loose typing, when a number and a string are added with the '+' operator, it performs string concatenation.  The solution shows how to explicitly convert the inputs to numbers to ensure correct numerical addition.
